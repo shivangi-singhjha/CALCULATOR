@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: Arial;
+}
+
+.headd {
+    height: 20%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: cyan;
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 4rem; */
+}
+
+.calcu {
+    background-color: black;
+    color: cyan;
+    height: 60%;
+    padding: 4rem;
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.rowss {
+    width: 1000px;
+    margin: 2rem;
+    justify-content: center;
+}
+
+input {
+    border-radius: 55%;
+    background-color: rgba(71, 71, 71, 0.537);
+    font-size: 20px;
+    color: cyan;
+    border-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-inline-start: 3rem; */
+    margin-inline: 1rem;
+    margin-bottom: 1rem;
+    padding: 1.2rem;
+    width: 50px;
+    cursor: pointer;
+    line-height: 0.5rem;
+}
+
+.n:hover {
+    border-color: cyan;
+}
+
+.s:hover {
+    border-color: pink;
+}
+
+.res {
+    width: 250px;
+    padding: 1.2rem;
+    border-radius: 0;
+    border: 1px solid cyan;
+}
+
+input.res {
+    margin-bottom: 0.85rem;
+}
+
+.r {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.s {
+    font-weight: 600;
+    color: pink;
+}
+
+#x {
+    display: inline-flex;
+    width: 250px;
+    padding-right: 1.7rem;
+    padding-left: 1.7rem;
+    justify-content: center;
+    /* margin-top: 0rem; */
+    /* margin-top: 0.2rem; */
+    margin-bottom: 0.5rem;
+    color: darkblue;
+}
+
+/* #x {
+    color: darkblue;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 491.708px;
+    padding-right: 8rem;
+    padding-left: 4rem;
+    width: 320px; 
+    transform: translateX(21rem);
+} */
+
+
+*/ .ss {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    justify-items: left;
+    text-align: justify;
+    /* font-weight: 300; */
+    color: red;
+
+}
+
+.ss:hover {
+    border-color: red;
+
+}
+
+.eq {
+    font-weight: 600;
+    background-color: pink;
+    color: black;
+
+}
+
+.eq:hover {
+
+    border-color: cyan
+}
+
+/* .bot {
+    background-color: cyan;
+    height: auto;
+    width: auto;
+    box-sizing: border-box;
+} */
+
+.bot {
+    height: 20%;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    padding-right: 1rem;
+    background-color: cyan;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    text-align: left;
+    /* margin-bottom: 4rem; */
+}
